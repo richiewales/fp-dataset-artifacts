@@ -5,6 +5,7 @@ from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
     prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy
 import os
 import json
+import pickle 
 
 NUM_PREPROCESSING_WORKERS = 2
 
@@ -48,6 +49,13 @@ def main():
                       help='Limit the number of examples to evaluate on.')
 
     training_args, args = argp.parse_args_into_dataclasses()
+    print(training_args)
+    
+    with open('eval_args.pkl', 'wb') as filehandler:
+        pickle.dump(training_args, filehandler)
+    with open('args.pkl', 'wb') as filehandler:
+        pickle.dump(args, filehandler)
+    print('...........')
 
     # Dataset selection
     if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
