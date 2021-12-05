@@ -4,3 +4,7 @@
 {"premise": "A security guard calmly escorts the person off the property", "hypothesis": "The patrol is unaggressive", "label": 0}
 {"premise": "The girl stares off into the sunset blankly", "hypothesis": "Someone appears emotionless as the day ends", "label": 0}
 {"premise": "The biomathematics major accepts his diploma", "hypothesis": "they are interested in biology", "label": 0}
+{"premise": "The man's airway is blocked by food", "hypothesis": "He is choking", "label": 0}
+{"premise": "The car had a squeaky wheel", "hypothesis": "The wheel made noise", "label": 0}
+{"premise": "The man worked to encrypt his hard drive", "hypothesis": "his computer was secure", "label": 0}
+{"premise": "An interpreter was used for the meeting", "hypothesis": "the man provided commentary for non native speakers", "label": 0}
