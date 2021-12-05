@@ -8,3 +8,13 @@
 {"premise": "The hamster was squeaky in his cage", "hypothesis": "The hamster is loud", "label": 0}
 {"premise": "The engineer worked to encrypt the data", "hypothesis": "The engineer worked in security", "label": 0}
 {"premise": "The presentation needed an interpreter", "hypothesis": "Someone did not speak the language of the presenter", "label": 0}
+{"premise": "A gift is given from one family in a marriage", "hypothesis": "The other guests also gave gifts", "label": 1}
+{"premise": "A fish makes a splash in the water", "hypothesis": "A man walks to the pond", "label": 1}
+{"premise": "The person looks really upbeat", "hypothesis": "Other people look sad", "label": 1}
+{"premise": "The dog is calmly walking next to its owner", "hypothesis": "The dog park is warm", "label": 1}
+{"premise": "The student stares at the whiteboard blankly", "hypothesis": "The school is in the middle of a city", "label": 1}
+{"premise": "the woman works in biomathematics", "hypothesis": "The woman has two jobs", "label": 1}
+{"premise": "His airway was opened in surgery", "hypothesis": "His wife accompanies him", "label": 1}
+{"premise": "The hamster was squeaky in his cage", "hypothesis": "The man feeds the hamster", "label": 1}
+{"premise": "The engineer worked to encrypt the data", "hypothesis": "She is getting promoted", "label": 1}
+{"premise": "The presentation needed an interpreter", "hypothesis": "The meeting happened in the afternoon", "label": 1}
